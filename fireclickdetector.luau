@@ -1,4 +1,4 @@
-unction _G.fireclickdetector(detector, playerId, eventName)
+function _G.fireclickdetector(detector, playerId, eventName)
 	assert(typeof(detector) == "Instance" and detector:IsA("ClickDetector"), "The first argument must be a ClickDetector!")
 	assert(type(playerId) == "number", "Second argument must be a player ID number!")
 	assert(type(eventName) == "string", "Third argument must be an event name string!")
